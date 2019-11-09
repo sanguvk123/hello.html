@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<html lang="en">
+<meta charset="utf-8">
+<head>
+  <title>Form</title>
+    <link rel="stylesheet" href="forms.css">
+    <script src="forms.js"></script>
+</head>
+<body>
+
+<div>
+<p class="student_details">Student Details</p>
+<p class="description"> Fill up these details so that the institution can have the record of your details.</p>
+
+<form name ="myform" method="post">
+  <div class="form">
+    <ol>
+  <li>First Name:<input type="name" value="" name="Name" placeholder="First Name"></li>
+  <li>Last Name:<input type="name" value="" name="Name" placeholder="Last Name" ></li>
+  <li>Date of birth:<input type="date" value="" name="date" placeholder="dd/mm/yyyy"></li>
+  <li><label for="emailid">Email ID</label><input type="email" value="" name="emailid" placeholder="Email address"></li>
+  <li><select id="class" name="class">
+      <option value="B Tech">B Tech</option>
+      <option value="M Tech">M Tech</option>
+      <option value="PHD">PHD</option>
+    </select></li>
+  <li>Gender :
+    <div class="radio">
+    Male<input type="radio" name="Gender" value = "Male">
+    Female<input type="radio" name="Gender" value="Female">
+    Other<input type="radio" name="Gender" value="Other"></li>
+    </div>
+  <input type="submit" value="Submit">
+</div>
+
+</form>
+
+
+</body>
+</html>

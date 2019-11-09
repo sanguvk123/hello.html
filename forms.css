@@ -1,0 +1,104 @@
+p.student_details{
+  font-size: 50px;
+  font-style: normal;
+  text-shadow: 10px;
+  text-align: center;
+  text-decoration: underline;
+  text-align: center;
+  color: black;
+  font-family: fantasy;
+}
+p.description{
+  color: black;
+}
+
+input[type = name]{
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0px;
+  display:inline-block;
+  border: 1px solid blue;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-left: 30%;
+}
+
+input[type = email]{
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0px;
+  display:inline-block;
+  border: 1px solid blue;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-left: 30%;
+}
+
+input [type = submit]:hover{
+  color: blue;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 3%;
+}
+
+input[type=submit] {
+  width: 10%;
+  background-color: #00004d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 40%;
+}
+
+
+input[type = date]{
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0px;
+  display:inline-block;
+  border: 1px solid blue;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-left: 30%;
+  scroll-behavior: auto;
+}
+
+select[id = class]{
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0px;
+  display:inline-block;
+  border: 1px solid blue;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-left: 30%;
+  scroll-behavior: auto;
+}
+
+div.form{
+  margin-left: 0%;
+}
+div.radio{
+  margin-left: 27%;
+}
+form{
+  color: black;
+  text-decoration: none;
+  text-decoration-style: wavy;
+  font-family: calibri;
+}
+body{
+  background-color: pink;
+  border: 10px;
+  border-color: black;
+
+}
